@@ -24,4 +24,9 @@
     <button type="submit" class="btn btn-success">Send</button>
 </form>
 
+<h1>all records</h1>
+@foreach($reviews as $el)
+    <div class="alert alert-warning">{{$el}}</div>
+@endforeach
+
 @endsection
